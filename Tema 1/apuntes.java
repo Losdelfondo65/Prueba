@@ -71,6 +71,32 @@ public class apuntes {
         String ciudad = localidad.nextLine();
 
         System.out.println("Tu nombre es " + nombrePersona + " te apellidas " + apellidosPersona + " tu código postal es " + respuestaPostal + " Vives en la calle " + nombreCalle + " el numero de la calle es " + numeroCalle + " el numero de piso es " + numeroPuerta + " con letra " + piso + " y resides en " + ciudad);
-  
+                /*
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
+         * 
+         */
+        //Conversión Implicita
+        // int  sirve  para dar un valor a un número simple
+        // double sirve para dar valor a un número decimal
+               //entero a double
+        //Declara una variable int con un valor cualquiera
+        //y asignala a una variable double
+        //muestra ambas en pantalla para comprobar el cambio
+        int numeroEntero = 42;
+        double numeroDouble = numeroEntero;
+        System.out.println("Entero: " + numeroEntero );
+        System.out.println( "Entero en decimal: " + numeroDouble);
+        //Declara una variable short y asginara a una variable int
+        short numeroCorto = 5;
+        int NumeroEntero = numeroCorto;
+        System.out.println("Numero Corto " + numeroCorto + "Numero Entero " + NumeroEntero);
     }
 }
+
