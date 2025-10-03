@@ -129,7 +129,34 @@ public class apuntes {
             //todo lo que vaya dentro de {....}se ejecuta
             System.out.println("Has fallado prueba en la siguiente");
         }
-        
-        
+        /*
+        *
+        *
+        *
+        */
+           char letra1;
+    Scanner sc =new Scanner(System.in);
+    System.out.println("Dime una letra");
+
+    letra1= sc.nextLine().charAt(0);
+
+    //if (condicion)
+    if(letra1 == 'A'){
+        //Todo lo que vaya dentro {.....}se ejecuta
+    System.out.println("Pista 1");}
+
+    else if(letra1 == 'E'){
+        System.out.println("Pista 2");}
+
+    else if(letra1 == 'I'){
+        System.out.println("Pista 3");}
+
+    else if(letra1 == 'O'){
+        System.out.println("Pista 4");}
+
+    else if(letra1 == 'U'){
+        System.out.println("Pista 5");}
+     
     }
 }
+
