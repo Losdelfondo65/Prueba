@@ -97,6 +97,44 @@ public class apuntes {
         short numeroCorto = 5;
         int NumeroEntero = numeroCorto;
         System.out.println("Numero Corto " + numeroCorto + "Numero Entero " + NumeroEntero);
+        /*
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        *
+        */
+        //Primer condicional
+        //definicion de variables
+        final int NUMERO = 3;
+        int numero;
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Va dime tu numero");
+
+        numero= sc.nextInt();
+
+        //if (condicion)
+        if(numero == NUMERO){
+            //Todo lo que vaya dentro {.....}se ejecuta
+        System.out.println("Felicidades - Has ganado el premio gordo");
+        }else{
+            //todo lo que vaya dentro de {....}se ejecuta
+            System.out.println("Has fallado prueba en la siguiente");
+        }
+        
+        
     }
 }
+
+    }
+}
+
 
