@@ -156,7 +156,47 @@ public class apuntes {
 
     else if(letra1 == 'U'){
         System.out.println("Pista 5");}
+
+    /*
+    *
+    *
+    *
+    *
+    *
+    */
+        
+    // Laberinto de true o false
+    System.out.println("Bienvenido al laberinto");
+Scanner primera = new Scanner(System.in);
+System.out.println("A que camino quieres ir a la izquierda o a la derecha");
+boolean izq;
+izq = primera.nextBoolean();
+if (izq)  {
+    System.out.println("Te encuentras con una puerta cerrada la abres o no");
+    Scanner puerta = new Scanner(System.in);
+    boolean Door;
+    Door = puerta.nextBoolean();
+    if (Door) {
+        System.out.println("Felicidades has encontrado la salida!!!!");
+        
+    }
+    else if(Door == false){
+        System.out.println("Vaya vino una persona por detras y te mato");
+    }
+        
+    }
+ else if(izq == false){
+    System.out.println("Acabas de encontrar un rio lo cruzas o no");
+    Scanner rio= new Scanner(System.in);
+    Boolean caida;
+    caida = rio.nextBoolean();
+    if(caida){
+        System.out.println("Conseguiste pasar y te salvaste");   
+    }
+    else {
+        System.out.println("Vaya te moriste");
      
     }
 }
+
 
